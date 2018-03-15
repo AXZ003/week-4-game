@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Countries Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <h1 class="title">Countries Collector</h1>
+    <h3 class="dreams">Style</h3>
+</div>
+    <div id="container">
+
+        <h2 id="music"></h2>
+        <div id="img-div"><img src="" alt=""></div>
+            <!-- where an image of the world will be displayed -->
+
+        <div id="game-section">
+            <p>Click on an a country to get started!</p>
+
+        <section id="instructions">
+            <h2>Instructions:</h2>
+            <p> You will be given a random number at the start of the game. <br> There are four countries below. By clicking on a country you will add a specific amount of points to your total score.<br> You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number. <br> The value of each country is hidden until clicked by you. <br> Each time the game re-starts, the game will change the value of each crystal. </p>
+        </section>
+
+        <div id="number-to-guess-section"> 
+            <h3 class="section-title">Number to Guess:</h3>
+            <!-- The div where our current number to guess will be shown.-- current word selection -->
+            <div id="number-to-guess"></div>
+        </div>
+
+        <div id="right" class="score-box">
+            <h3 class="section-title">Wins: </h3>
+            <!-- The div where our wins will be shown. -->
+            <div id="wins"></div>
+
+            <h3 class="section-title">Losses: </h3>
+            <!-- The div where our wins will be shown. -->
+            <div id="losses"></div>
+        </div>
+    
+        <div id="images">
+            <div class="img-country1"><img src="" alt=""></div>
+            <div class="img-country2"><img src="" alt=""></div>
+            <div class="img-country3"><img src="" alt=""></div>
+            <div class="img-country4"><img src="" alt=""></div>
+        </div>
+
+        <div id="total-score">
+            <h3 class="section-title">Your total score is: </h3>
+            <div id="score"></div>
+            <!-- The div where our wins will be shown. -->
+            <!-- MIGHT NEED A SEPERATE BOX TO MAKE POINTS GO IN HERE LIKE IN DEMO -->
+        </div>
+
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
