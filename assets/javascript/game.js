@@ -31,27 +31,27 @@ var randomNumber = $("#number-to-guess");
  
  $(totalscore).html(total);
     
-//Adding to total score based on user clicks, then running the check function to test the outcome
+//add to total score based on user clicks, then running the check function to test the outcome
 $(".country1").on("click", function(){
     total += country1;
     $(totalscore).html(total);
-    check();
+    match();
 })
        
 $(".country2").on("click", function(){
     total += country2;
     $(totalscore).html(total);
-    check();
+    match();
 })
 $(".country3").on("click", function(){
     total += country3;
     $(totalscore).html(total);
-    check();
+    match();
 })
 $(".country4").on("click", function(){
     total += country4;
     $(totalscore).html(total);
-    check();
+    match();
 })
 
 
@@ -66,7 +66,7 @@ var reset = function() {
 
 
 //Checks to see if user total score matches the random number
-var check = function() {
+var match = function() {
 
 
     if (targetNumber == total) {
