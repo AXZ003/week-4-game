@@ -1,0 +1,132 @@
+
+body {
+    background-image: url("background/pink.png");
+}
+
+
+
+@font-face {
+    font-family: "bromello";
+    src: url("fonts/bromello/bromello.ttf");
+
+}
+
+@font-face {
+
+    font-family: "chelsea";
+    src: url("fonts/chelsea.ttf")
+
+}
+
+@font-face {
+
+    font-family: "Embers";
+    src: url("fonts/embers/embers.ttf")
+
+}
+
+@font-face {
+
+    font-family: "Daisy";
+    src: url("fonts/Daisy/daisy.ttf")
+
+}
+img {
+
+    height: 340px;
+    width: 315px;
+
+
+}
+
+h1 {
+
+    font-family: "Daisy";
+    font-weight: bold;
+    font-size: 130px;
+
+}
+
+h4 {
+
+    font-size: 20px;
+
+}
+
+h2 {
+
+    font-size: 30px;
+    margin: 2px;
+    font-family: "chelsea";
+
+}
+
+
+h2, h3 {
+
+    font-family: "bromello";
+    letter-spacing: 1.5px;
+    
+  
+
+}
+
+.title {
+
+    text-align: center;
+    margin: 10px;
+}
+
+#instructions {
+ 
+    text-align: justify; text-align-last: center;
+    border-color: hotpink;
+    border-block-end-style: solid;
+    border-width: 20px;
+
+}
+
+
+section, #instructions {
+
+    float: left;
+    margin-bottom: 60px;
+    margin-left: 90px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 720px;
+    height: 250px;
+    
+}
+
+.section-title {
+    text-align: center;
+    font-size: 25px;
+    margin: 13px;
+
+}
+
+
+#countries {
+
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 400px;
+    width: 1500px;
+    clear: both;
+
+}
+
+#score-section {
+    float: right;
+    border-color: black;
+    width: 309px;
+    height: 295px;
+    border-style: solid;
+    border-width: 5px;
+    margin-right: 130px;
+}
